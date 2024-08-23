@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1:#f18c8e;
+    --color2:#f0b7a4;
+    --color3:#f1d1b5;
+    --color4:#568ea6;
+    --color5:#305f72;
+
+}
+
+body, html {
+    background: linear-gradient(180deg, var(--color1), var(--color2), var(--color3), var(--color4), var(--color5));
+    height: 100vh;
+    font-family: 'Montserrat', open-sans;
+}
+
+.title-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color5);
+    color: #f3f3f3;
+    justify-content: center;
+    border: 1px #333 solid;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.title-flex p {
+    color: #999;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #333;
+    border: 1px #333 solid;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.flex-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+iframe {
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+
+.container h1 {
+    color:#fff;
+    background-color: var(--color1);
+    border: 1px solid #999;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    padding: 1rem;
+    color: #333;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.footer {
+    background-color: var(--color5);
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    border-top: 1px solid #aaa;
+    padding: 2rem 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .footer .footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer a {
+    margin: 0.2rem;
+  }
+
+  i {
+    background-color: var(--color5);
+    color: var(--color3);
+    border: none;
+  }
+
+  li {
+    list-style: none;
+  }
