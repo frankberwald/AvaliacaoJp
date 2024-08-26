@@ -15,20 +15,22 @@
 
 body, html {
   background: linear-gradient(180deg, var(--color1), var(--color2), var(--color3), var(--color4), var(--color5));
-  height: 100vh;
   font-family: 'Montserrat', open-sans;
 }
-
+/* body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
 
 .container-post-header {
   font-size: 2rem;
   font-weight: 700;
   border: 2px solid #999;
-  width: 30vh;
   background-color: #f3f3f3;
   opacity: 0.7;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   text-align: center;
   border-radius: 5px;
@@ -41,6 +43,7 @@ body, html {
 
 .container-post-nav {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: space-between;
   padding: 0px 40px;
@@ -88,8 +91,9 @@ a {
   border: 1px #333 solid;
   padding: 10px;
   border-radius: 10px;
-  width: 100%;
+  width: 80%;
   margin-top: 30px;
+  margin-left: 220px;
 }
 
 .weld-img {
