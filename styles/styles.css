@@ -17,11 +17,6 @@ body, html {
   background: linear-gradient(180deg, var(--color1), var(--color2), var(--color3), var(--color4), var(--color5));
   font-family: 'Montserrat', open-sans;
 }
-/* body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
 
 .container-post-header {
   font-size: 2rem;
